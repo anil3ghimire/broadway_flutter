@@ -19,11 +19,11 @@ class _MainScreenState extends State<MainScreen> {
       appBar: AppBar(),
       drawer: MyDrawer(),
       bottomNavigationBar: NavigationBar(
-        onDestinationSelected: (index) {
-          setState(() {
-            currentIndex = index;
-          });
-        },
+        // onDestinationSelected: (index) {
+        //   setState(() {
+        //     currentIndex = index;
+        //   });
+        // },
         selectedIndex: currentIndex,
         destinations: [
           NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
