@@ -16,7 +16,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      // appBar: AppBar(),
       drawer: MyDrawer(),
       bottomNavigationBar: NavigationBar(
         onDestinationSelected: (index) {

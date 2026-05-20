@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:fluttert/app_theme/app_colors.dart';
-import 'package:fluttert/app_theme/app_text_style.dart';
 import 'package:fluttert/models/user_model.dart';
-import 'package:fluttert/route/app_router.dart';
 import 'package:fluttert/route/app_routes.dart';
-import 'package:fluttert/widgets/login_card_widget.dart';
 import 'package:fluttert/widgets/my_button_widget.dart';
 import 'package:fluttert/widgets/my_card_widget.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatelessWidget {
